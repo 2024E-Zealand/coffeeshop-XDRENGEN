@@ -8,5 +8,6 @@ namespace CoffeeShopConsoleAppNet60
 {
     public class BlackCoffee : Coffee
     {   
+
     }
 }
