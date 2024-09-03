@@ -22,5 +22,12 @@ namespace CoffeeShopConsoleAppNet60
         {
             return 40;
         }
+
+
+        // Konstruktør
+        public Cortado(int discount) : base(discount)
+        {
+        }
+
     }
 }

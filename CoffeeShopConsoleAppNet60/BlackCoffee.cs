@@ -12,5 +12,12 @@ namespace CoffeeShopConsoleAppNet60
         {
             return "Strong";
         }
+
+
+        // Konstruktør
+        public BlackCoffee(int discount) : base(discount)
+        {
+        }
+
     }
 }

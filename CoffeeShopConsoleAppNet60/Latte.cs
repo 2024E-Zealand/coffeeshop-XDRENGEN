@@ -8,6 +8,10 @@ namespace CoffeeShopConsoleAppNet60
 {
     public class Latte : Coffee, IMilk
     {
+        public Latte(int discount) : base(discount)
+        {
+        }
+
         public override int Price()
         {
             return 40;
@@ -22,5 +26,8 @@ namespace CoffeeShopConsoleAppNet60
         {
             return 200;
         }
+
+
+
     }
 }
